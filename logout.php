@@ -1,10 +1,9 @@
-<!-- session destroy karke direct login page pe -->
+<!-- it destroy the session and redirect to login page -->
 
 <?php
-// Start the session
+
 session_start();
 session_destroy();
-
-header("location: index.php");
+header('location:adminlogin.php');
 
 ?>
